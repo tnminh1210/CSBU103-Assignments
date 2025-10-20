@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minh's CV</title>
+    <!-- To get icon in fontawsome.com -->
+    <script
+      src="https://kit.fontawesome.com/f4e506e06f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <!-- set font and size text, space between line text. 
+ Margin 100px is space between border of page and information in body
+ display flex arrange section box and aside box (usefull when create aside box)
+ wrap is the way box will move when scroll the page or a size of page changed
+ background color and color of text -->
+  <body
+    style="
+      font-size: 15.5px;
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.5;
+      margin: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      background: #0b0f1a;
+      color: #e6eef8;
+    "
+  >
+    <!-- create section 
+     background and border radius make corner of box round
+     create shadow of section -->
+    <section
+      style="
+        background: #0f1724;
+        color: #e6eef8;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 20px 60px rgba(2, 6, 23, 0.7),
+          inset 0 1px 0 rgba(255, 255, 255, 0.02);
+      "
+    >
+      <!-- insert picture, set width and height of picture, margin bottom is space of picture between text in bottom, create shadow of picture -->
+      <img
+        src="cv.png"
+        alt="Minh's Photo"
+        style="
+          width: 300px;
+          height: 320px;
+          margin-bottom: 30px;
+          box-shadow: 0 8px 20px rgba(2, 6, 23, 0.6);
+          object-fit: cover;
+        "
+      />
+      <!-- write information and icon which is gotten from fontawsome.com -->
+      <p><i class="fa-solid fa-circle-user"></i> Lam Tuan Minh</p>
+      <p><i class="fa-solid fa-house"></i> Ho Chi Minh, City</p>
+      <p><i class="fa-solid fa-phone"></i> 0346456789</p>
+      <p><i class="fa-solid fa-envelope"></i> lamtuanminh1210@gmail.com</p>
+      <p><i class="fa-solid fa-user-graduate"></i> Student ID | 24560070</p>
+      <!-- create list, list style type to delete dot of list
+         padding is space between list and border, display inline flex help to list display in 1 line result is 2 item in list will be in center -->
+      <ul
+        style="
+          font-size: 17px;
+          list-style-type: none;
+          padding: 60;
+          gap: 30px;
+          display: inline-flex;
+        "
+      >
+        <!-- insert link with icon in font awsome, text decoration none will delete line under work which access link -->
+        <li>
+          <a
+            href="https://github.com/tnminh1210/CSBU103-Assignments"
+            style="text-decoration: none; color: #60a5fa"
+            ><i class="fa-brands fa-github"></i> Github</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/tu%E1%BA%A5n-minh-l%C3%A2m-088a1832b/"
+            style="text-decoration: none; color: #60a5fa"
+            ><i class="fa-brands fa-linkedin"></i> Linkedin</a
+          >
+        </li>
+      </ul>
+      <!-- create skill and language with line like a percent of them
+         back ground is a color of line
+         height will make line thicker
+         width like percent of each skill  -->
+      <h1>Skill</h1>
+      <p>Problem solving</p>
+      <p
+        style="
+          height: 6px;
+          border-radius: 2px;
+          width: 90%;
+          background: linear-gradient(90deg, #6ee7b7 0%, #10b981 100%);
+        "
+      ></p>
+      <p>Team work</p>
+      <p
+        style="
+          height: 6px;
+          border-radius: 2px;
+          width: 80%;
+          background: linear-gradient(90deg, #6ee7b7 0%, #10b981 100%);
+        "
+      ></p>
+      <p>Critical Thinking</p>
+      <p
+        style="
+          height: 6px;
+          border-radius: 2px;
+          width: 70%;
+          background: linear-gradient(90deg, #6ee7b7 0%, #10b981 100%);
+        "
+      ></p>
+      <h1>Language</h1>
+      <p>English - Intermediate</p>
+      <p
+        style="
+          height: 6px;
+          border-radius: 2px;
+          width: 80%;
+          background: linear-gradient(90deg, #60a5fa 0%, #1e40af 100%);
+        "
+      ></p>
+    </section>
+
+    <!-- create aside
+     set font size, background color, text color, padding is space between border and text, border radius make corner of box round
+     margin left is space between section box and aside box
+     box shadow create shadow of aside box
+     flex 1 help aside box take the remaining space of body -->
+    <aside
+      style="
+        font-size: 19px;
+        background: #111827;
+        color: #e6eef8;
+        padding: 50px;
+        border-radius: 10px;
+        margin-left: 20px;
+        box-shadow: 0 12px 30px rgba(2, 6, 23, 0.6),
+          0 0 18px rgba(96, 165, 250, 0.06);
+        flex: 1;
+      "
+    >
+      <!-- create information of Introduction, Education, Certification-->
+      <h1 style="margin-top: 20px">
+        <i class="fa-solid fa-user"></i> Introduction
+      </h1>
+      <p>
+        A first-year Computer Science student at the University of Information
+        Technology (UIT) with a clear career aspiration in Artificial
+        Intelligence (AI). I possess foundational knowledge in Python as well as
+        basic web technologies including HTML, CSS, and JavaScript. Driven by a
+        passion for AI and a proactive learning mindset, I am seeking an
+        internship opportunity to gain hands-on experience with real-world
+        projects, develop my professional skills, and contribute to building
+        intelligent technology solutions. I am also enthusiastic about learning
+        from industry experts and continuously improving my technical abilities
+        to prepare for future challenges in the AI field.
+      </p>
+      <h1 style="margin-top: 50px">
+        <i class="fa-solid fa-school"></i> Education
+      </h1>
+      <p>High School Diploma, Nguyen Thi Minh Khai High School</p>
+      <p><i class="fa-solid fa-calendar"></i> <b>2021 - 2024</b></p>
+      <p>
+        <b>Information Technology University, VNU-HCM</b> | Ho Chi Minh City,
+        Vietnam Bachelor of Science in Computer Science
+      </p>
+      <p><i class="fa-solid fa-calendar"></i> <b>2021 - Expected 2025</b></p>
+      <h1 style="margin-top: 50px">
+        <i class="fa-solid fa-certificate"></i> Certification
+      </h1>
+      <!-- insert link to access certication  -->
+      <p>
+        Python for Data Science, AI & Development - Course |
+        <a
+          href="https://www.coursera.org/account/accomplishments/verify/FIV4XN83HN0Z?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+          style="text-decoration: none; color: #60a5fa"
+          ><i class="fa-solid fa-square-arrow-up-right"></i
+        ></a>
+      </p>
+      <p><i class="fa-solid fa-calendar"></i> <b>Oct, 2025</b></p>
+      <p>Ielts 5.5</p>
+      <p><i class="fa-solid fa-calendar"></i> <b>Mar, 2025</b></p>
+      <p>
+        MOS (Microsoft Office Specialist) |
+        <a
+          href="https://www.certiport.com/portal/Pages/PrintTranscriptInfo.aspx?action=Cert&id=250&cvid=wrmxg9YNlgtRgL8AK3NEeA=="
+          style="text-decoration: none; color: #60a5fa"
+          ><i class="fa-solid fa-square-arrow-up-right"></i
+        ></a>
+      </p>
+      <p><i class="fa-solid fa-calendar"></i> <b>2021 - Expected 2025</b></p>
+    </aside>
+  </body>
+</html>
