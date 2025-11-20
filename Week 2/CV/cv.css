@@ -1,0 +1,141 @@
+body {
+  /* black-centric night theme */
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: #e6eef3; /* soft light text */
+  background: #000000; /* main black background */
+  padding: 30px;
+  font-size: large;
+}
+/* limit width and height of picture  */
+.contact img {
+  width: 300px;
+  height: 320px;
+  /* crop and fill */
+  object-fit: cover;
+  /* subtle cool glow */
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.7), 0 2px 6px rgba(30, 60, 90, 0.25);
+  margin-bottom: 10px;
+}
+/* make the text like a box */
+.contact {
+  /* dark card */
+  background: #070707; /* very dark card background */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding: 25px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7);
+}
+.unlist {
+  /* delete orginal symbol of list and set list represent in 1 line */
+  list-style-type: none;
+  display: inline-flex;
+  /* space between 2 item */
+  gap: 40px;
+}
+.linkinfo a {
+  color: #7dd3fc; /* cyan accent for links */
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+/* create line under skill */
+.linear-gradient-1 {
+  /* similar to create the line have thickness */
+  height: 6px;
+  /* use color have Gradient by https://cssgradient.io/ */
+  background: linear-gradient(
+    90deg,
+    rgba(31, 188, 241, 1) 0%,
+    rgba(14, 165, 233, 1) 100%
+  );
+  border-radius: 2px;
+  width: 250px;
+}
+/* create line under skill */
+.linear-gradient-2 {
+  height: 6px;
+  /* use color have Gradient by https://cssgradient.io/ */
+  background: linear-gradient(
+    90deg,
+    rgba(31, 188, 241, 0.95) 0%,
+    rgba(14, 165, 233, 0.95) 100%
+  );
+  border-radius: 2px;
+}
+/* create line under skill */
+.linear-gradient-3 {
+  height: 6px;
+  /* use color have Gradient by https://cssgradient.io/ */
+  background: linear-gradient(
+    90deg,
+    rgba(31, 188, 241, 0.9) 0%,
+    rgba(14, 165, 233, 0.9) 100%
+  );
+  border-radius: 2px;
+  width: 200px;
+}
+/* create line under skill */
+.linear-gradient-4 {
+  height: 6px;
+  /* use color have Gradient by https://cssgradient.io/ */
+  background: linear-gradient(
+    90deg,
+    rgba(31, 188, 241, 0.85) 0%,
+    rgba(14, 165, 233, 0.85) 100%
+  );
+  border-radius: 2px;
+  width: 260px;
+}
+/* make a text like a box */
+.introduction {
+  /* set up color, width, height background of the section like a box with radius line */
+  background: #0b0b0b;
+  border-radius: 10px;
+  /* make introduction box can elastic to fill the whitespace of pages which depend on size of page and device  */
+  flex: 1;
+  /* space between text and border of background */
+  padding: 30px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7);
+}
+/* to make introduction and contact will be in the item in flexbox. To introduction and contact box in the row */
+.flexbox {
+  display: flex;
+  gap: 20px;
+  /* to hold 2 box on top, not be lengthen */
+  align-items: flex-start;
+  /* make when scroll page it will arange contact is first after that is introduction, education, certification */
+  flex-wrap: wrap;
+}
+/* set background color of box education like box introduction */
+.education {
+  background-color: #0b0b0b;
+  border-radius: 10px;
+  /* set space between border and text */
+  padding: 30px;
+  /* the box will extand to fill full white space */
+  flex: 1;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.7);
+}
+.arrange {
+  /* set introduction, education and certification will be in a flex box to set it like column */
+  display: flex;
+  /* set type of flexbox is column */
+  flex-direction: column;
+  /* space between boxes */
+  gap: 46px;
+  /* the box will extand to fill full white space */
+  flex: 1;
+}
+.Certification {
+  /* make certification like a box */
+  background-color: #0b0b0b;
+  border-radius: 10px;
+  /* space between border and text in box */
+  padding: 30px;
+  /* the box will extand to fill full white space */
+  flex: 1;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.72);
+  margin-bottom: 40px;
+}
